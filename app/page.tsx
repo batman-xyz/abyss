@@ -1,91 +1,112 @@
-import Image from 'next/image'
-import { Inter } from '@next/font/google'
-import styles from './page.module.css'
+import styles from "./pages.module.css";
+import { Inter, Spline_Sans_Mono } from "@next/font/google";
+import Image from "next/image";
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>app/page.tsx</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
-
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-        <div className={styles.thirteen}>
-          <Image src="/thirteen.svg" alt="13" width={40} height={31} priority />
-        </div>
-      </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://beta.nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={inter.className}>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p className={inter.className}>
-            Find in-depth information about Next.js features and API.
+    <>
+      <main className="flex">
+        <div className="text-white w-1/2">
+          <h1>Ruthlessly Test</h1>
+          <h2>Never bad UX</h2>
+          <p>
+            Lorum Epsum is an open source alternative. Start your project with a
+            Lorum Epsum Lorum Epsum is an open source alternative. Start your
+            project with a Lorum Epsum.
           </p>
-        </a>
+          <div>
+            <p>Powered by</p>
+            <div className="flex space-x-2">
+              <Image
+                src={"/reauth-logo-abyss.png"}
+                height={32}
+                width={32}
+                alt="reauth-logo-abyss"
+              />
+              <Image
+                src={"/adyen-logo-abyss.png"}
+                height={32}
+                width={32}
+                alt="reauth-logo-abyss"
+              />
+              <Image
+                src={"/graphana-logo-abyss.png"}
+                height={32}
+                width={32}
+                alt="reauth-logo-abyss"
+              />
 
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={inter.className}>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p className={inter.className}>Explore the Next.js 13 playground.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={inter.className}>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p className={inter.className}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
-  )
+              <Image
+                src={"/vercel-logo-abyss.png"}
+                height={32}
+                width={32}
+                alt="reauth-logo-abyss"
+              />
+              <Image
+                src={"/vultr-logo-abyss.png"}
+                height={32}
+                width={32}
+                alt="reauth-logo-abyss"
+              />
+              <Image
+                src={"/supabase-logo-abyss.png"}
+                height={32}
+                width={32}
+                alt="reauth-logo-abyss"
+              />
+            </div>
+          </div>
+          <span className="rounded-full">
+            <h4>Currently in private beta</h4>
+          </span>
+          <div className="flex items-center space-x-4">
+            <button className="bg-secondary h-[50px] w-[189px] rounded-lg border-2 text-white border-gray-300">
+              Request Access
+            </button>
+            <span className="flex items-center space-x-2">
+              <Image src={"/star.png"} height={16} width={16} alt="star" />
+              {/* <div id={styles.starFive} /> */}
+              <p>Star us on Github</p>
+            </span>
+          </div>
+        </div>
+        <div className="w-1/2">
+          
+        </div>
+      </main>
+      <section>
+        <h3>Product features that unblock your releases.</h3>
+        <article>
+          <div>
+            <Image />
+            <h4></h4>
+          </div>
+          <p></p>
+        </article>
+        <article>
+          <div>
+            <Image />
+            <h4></h4>
+          </div>
+          <p></p>
+        </article>
+        <article>
+          <div>
+            <Image />
+            <h4></h4>
+          </div>
+          <p></p>
+        </article>
+        <article>
+          <div>
+            <Image />
+            <h4></h4>
+          </div>
+          <p></p>
+        </article>
+      </section>
+    </>
+  );
 }

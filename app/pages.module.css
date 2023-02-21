@@ -1,0 +1,38 @@
+#starFive {
+  position: relative;
+  display: block;
+  color: red;
+  width: 0px;
+  height: 0px;
+  border-right: 10px solid transparent;
+  border-bottom: 7px solid red;
+  border-left: 10px solid transparent;
+  transform: rotate(35deg);
+}
+#starFive:before {
+  border-bottom: 8px solid red;
+  border-left: 3px solid transparent;
+  border-right: 3px solid transparent;
+  position: absolute;
+  height: 0;
+  width: 0;
+  top: -4px;
+  left: -6px;
+  display: block;
+  content: "";
+  transform: rotate(-35deg);
+}
+#starFive:after {
+  position: absolute;
+  display: block;
+  color: red;
+  top: 0px;
+  left: -10px;
+  width: 0px;
+  height: 0px;
+  border-right: 10px solid transparent;
+  border-bottom: 7px solid red;
+  border-left: 10px solid transparent;
+  transform: rotate(-70deg);
+  content: "";
+}
