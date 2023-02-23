@@ -34,7 +34,7 @@ export default function RootLayout({
         {children}
         <footer className="flex justify-center items-center absolute left-0 bottom-0 h-12 min-w-full bg-secondary text-white">
           <h3 className="text-lg font-bold">
-            Abyss Closes $50k in pre-seed funding.
+            Abyss Raises $50k in pre-seed funding.
           </h3>
         </footer>
       </body>

@@ -36,3 +36,12 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+Downtime cost
+Reputation cost - Bad UX, etc.
+Developer cost
+Scale-up cost
+https://blogs.gartner.com/andrew-lerner/2014/07/16/the-cost-of-downtime/
+https://trilio.io/resources/cost-of-downtime/#:~:text=The%20average%20cost%20of%20downtime,per%20hour%20to%20over%20%24500%2C000.
+https://www.atlassian.com/incident-management/kpis/cost-of-downtime
