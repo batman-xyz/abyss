@@ -137,8 +137,8 @@ export default function Home() {
             <h4 className="text-xl font-semibold">Scale</h4>
           </div>
           <p className="w-5/6 text-md font-light">
-            Supabase is an open source Firebase alternative. Start your project
-            with a Postgres database, Authentication
+            Lorem EpsumLorem EpsumLorem EpsumLorem EpsumLorem EpsumLorem
+            EpsumLorem EpsumLorem EpsumLorem EpsumLorem Epsum
           </p>
         </article>
         <article className="space-y-4">
@@ -154,8 +154,8 @@ export default function Home() {
             <h4 className="text-xl font-semibold">DevEx</h4>
           </div>
           <p className="w-5/6 text-md font-light">
-            Supabase is an open source Firebase alternative. Start your project
-            with a Postgres database, Authentication
+            Lorem EpsumLorem EpsumLorem EpsumLorem EpsumLorem EpsumLorem
+            EpsumLorem EpsumLorem EpsumLorem EpsumLorem Epsum
           </p>
         </article>
         <article className="space-y-4">
@@ -166,8 +166,8 @@ export default function Home() {
             <h4 className="text-xl font-semibold">Insight</h4>
           </div>
           <p className="w-5/6 text-md font-light">
-            Supabase is an open source Firebase alternative. Start your project
-            with a Postgres database, Authentication
+            Lorem EpsumLorem EpsumLorem EpsumLorem EpsumLorem EpsumLorem
+            EpsumLorem EpsumLorem EpsumLorem EpsumLorem Epsum
           </p>
         </article>
         <article className="space-y-4">
@@ -178,8 +178,8 @@ export default function Home() {
             <h4 className="text-xl font-semibold">Leaderboard</h4>
           </div>
           <p className="w-5/6 text-md font-light">
-            Supabase is an open source Firebase alternative. Start your project
-            with a Postgres database, Authentication
+            Lorem EpsumLorem EpsumLorem EpsumLorem EpsumLorem EpsumLorem
+            EpsumLorem EpsumLorem EpsumLorem EpsumLorem Epsum
           </p>
         </article>
       </section>
