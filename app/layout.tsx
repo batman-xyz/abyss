@@ -32,9 +32,9 @@ export default function RootLayout({
           </div>
         </header>
         {children}
-        <footer className="flex justify-center items-center absolute left-0 bottom-0 h-12 min-w-full bg-secondary text-white">
+        <footer className="flex justify-center items-center fixed left-0 bottom-0 h-12 min-w-full bg-secondary text-white">
           <h3 className="text-lg font-bold">
-            Abyss Raises $50k in pre-seed funding.
+            Abyss secures $50k in pre-seed funding.
           </h3>
         </footer>
       </body>

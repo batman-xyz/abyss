@@ -86,7 +86,7 @@ export default function Home() {
               className="w-full rounded-md text-2xl px-2 py-2 bg-white/[.10] text-white mb-4"
               placeholder="Enter route"
             />
-            <div className="flex text-white items-center w-full mb-4">
+            <div className="flex text-white items-center w-full mb-4 justify-between">
               <p className="font-semibold text-lg ml-2">
                 Authorisation header required?
               </p>
@@ -115,7 +115,9 @@ export default function Home() {
               Run a test
             </button>
           </div>
+          {/* 3px 8px 13px 7px rgba(0, 0, 0, 0.46); */}
           <Image
+            className="shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)]"
             src={"/demo-abyss.png"}
             height={505}
             width={739}
@@ -123,46 +125,59 @@ export default function Home() {
           />
         </div>
       </main>
-      <h3 className="text-white mt-24">
-        Product features that unblock your releases.
+      <h3 className="text-white mt-24 text-2xl font-bold mb-8">
+        Features that remove limits.
       </h3>
       <section className="flex text-white">
-        <article>
-          <div>
-            <Image />
-            <h4>Integrated</h4>
+        <article className="space-y-4">
+          <div className="flex items-center space-x-2">
+            <span className="bg-gray-100 p-2 rounded-md">
+              <Image src={"/scale.png"} height={24} width={24} alt="scale" />
+            </span>
+            <h4 className="text-xl font-semibold">Scale</h4>
           </div>
-          <p>
+          <p className="w-5/6 text-md font-light">
             Supabase is an open source Firebase alternative. Start your project
             with a Postgres database, Authentication
           </p>
         </article>
-        <article>
-          <div>
-            <Image />
-            <h4>Seamless</h4>
+        <article className="space-y-4">
+          <div className="flex items-center space-x-2">
+            <span className="bg-gray-100 p-2 rounded-md">
+              <Image
+                src={"/exp.png"}
+                height={24}
+                width={24}
+                alt="developer experience"
+              />
+            </span>
+            <h4 className="text-xl font-semibold">DevEx</h4>
           </div>
-          <p>
+          <p className="w-5/6 text-md font-light">
             Supabase is an open source Firebase alternative. Start your project
             with a Postgres database, Authentication
           </p>
         </article>
-        <article>
-          <div>
-            <Image />
-            <h4>Unlock</h4>
+        <article className="space-y-4">
+          <div className="flex items-center space-x-2">
+            <span className="bg-gray-100 p-2 rounded-md">
+              <Image src={"/idea.png"} height={24} width={24} alt="scale" />{" "}
+            </span>
+            <h4 className="text-xl font-semibold">Insight</h4>
           </div>
-          <p>
+          <p className="w-5/6 text-md font-light">
             Supabase is an open source Firebase alternative. Start your project
             with a Postgres database, Authentication
           </p>
         </article>
-        <article>
-          <div>
-            <Image />
-            <h4>Actualize</h4>
+        <article className="space-y-4">
+          <div className="flex items-center space-x-2">
+            <span className="bg-gray-100 p-2 rounded-md">
+              <Image src={"/podium.png"} height={24} width={24} alt="scale" />{" "}
+            </span>
+            <h4 className="text-xl font-semibold">Leaderboard</h4>
           </div>
-          <p>
+          <p className="w-5/6 text-md font-light">
             Supabase is an open source Firebase alternative. Start your project
             with a Postgres database, Authentication
           </p>
