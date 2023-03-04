@@ -41,6 +41,20 @@ export const showFinancialOptions = (evt: any) => {
   }
 };
 
-export const submit = () => {
-  console.log(store);
+export const submit = async () => {
+  try {
+    const r = await fetch("http://localhost:3000/api/v1/request-access", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        email: "randomone@gmail.com",
+        provider: "k6",
+      }),
+    });
+    console.log(r);
+  } catch (e) {
+    console.error(e);
+  }
 };

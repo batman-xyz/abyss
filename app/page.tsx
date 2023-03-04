@@ -1,5 +1,4 @@
-import styles from "./pages.module.css";
-import { Inter, Spline_Sans_Mono } from "@next/font/google";
+import { Inter } from "@next/font/google";
 import Image from "next/image";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -122,6 +121,7 @@ export default function Home() {
             height={505}
             width={739}
             alt="demo-abyss"
+            loading="eager"
           />
         </div>
       </main>

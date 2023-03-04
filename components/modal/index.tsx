@@ -27,27 +27,6 @@ export default function Modal() {
           <label>Current test solution</label>
           <input placeholder="Select your test solution" />
         </div>
-        <div onClick={showFinancialOptions}>
-          <h3>
-            Get first runs for free: <span id="yes">Y</span>{" "}
-            <span id="no">N</span>
-          </h3>
-        </div>
-        <div id="financialDetails" className="hidden flex-col">
-          <h3>Details securely verified with Adyen</h3>
-          <span>we do not store financial data</span>
-          <label>Card holders name</label>
-          <input placeholder="Enter card details" />
-          <label>Card Details</label>
-          <input placeholder="Enter card details" />
-          <label>CVV</label>
-          <input placeholder="Enter card details" />
-          <label>Expiry Date</label>
-          <div className="flex">
-            <input placeholder="Enter card details" />
-            <input placeholder="Enter card details" />
-          </div>
-        </div>
         <button onClick={submit}>Request Access</button>
       </div>
     </div>

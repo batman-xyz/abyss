@@ -1,7 +1,12 @@
 import "./globals.css";
 import Image from "next/image";
 import Modal from "@/components/modal";
-import { closeAnywhere, closeModal, RequestAccess } from "@/components/modal/handlers";
+import {
+  closeAnywhere,
+  closeModal,
+  RequestAccess,
+} from "@/components/modal/handlers";
+import Nav from "@/components/navabr";
 
 export default function RootLayout({
   children,
@@ -15,27 +20,11 @@ export default function RootLayout({
         head.tsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
       <head />
-      <body className="max-w-screen-2xl m-auto bg-primary" onClick={closeAnywhere}>
-        <header className="flex justify-between items-center min-h-[84px]">
-          <Image
-            src={"/logo-white.png"}
-            height={64}
-            width={154}
-            alt="abyss-logo-white-png"
-            loading="eager"
-          />
-          <div>
-            <button className="bg-white h-[50px] w-[176px] rounded-lg mr-2 shadow-[0px_0px_11px_4px_rgba(255,255,255,0.37)]">
-              Sign In
-            </button>
-            <button
-              onClick={RequestAccess}
-              className="bg-secondary h-[50px] w-[260px] rounded-lg border-2 text-white border-gray-300"
-            >
-              Request Access
-            </button>
-          </div>
-        </header>
+      <body
+        className="max-w-screen-2xl m-auto bg-primary"
+        onClick={closeAnywhere}
+      >
+        <Nav />
         {children}
         <footer className="flex justify-center items-center fixed left-0 bottom-0 h-12 min-w-full bg-secondary text-white">
           <h3 className="text-lg font-bold">
